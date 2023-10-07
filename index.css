@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background-color: green;
+    text-align: center;
+    padding: 3px;
+}
+a {
+    color: aliceblue;
+}
+a:hover{
+    color: aquamarine;
+}
+a:active {
+    background-color: green;
+}
+
+section{
+    flex-shrink: 0;
+    background-color: red;
+    height: 600px;
+    width: 100px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 90%;
+
+    /* right: 0px; */
+    
+}
+.asa{
+    /* flex-shrink: 0; */
+    padding-left: 30%;
+    padding-right: 20%;
+    margin-top: -600px;
+    text-align: justify;
+}
+footer{
+    background-color:black;
+    color: white;
+    margin-top: 320px;
+    padding: auto;
+    text-align: center;
+    padding: 3px;
+}
